@@ -1,0 +1,3 @@
+{"source":"http","src_ip":"198.51.100.10","dst_port":443,"action":"request","status_code":200,"path":"/login","user_agent":"Mozilla/5.0","bytes_in":320,"bytes_out":2048,"label":0}
+{"source":"ssh","src_ip":"198.51.100.20","dst_port":22,"action":"failed_login","username":"root","bytes_in":80,"bytes_out":120,"label":1}
+{"source":"honeypot","src_ip":"198.51.100.20","dst_port":8080,"action":"request","status_code":404,"path":"/.env","user_agent":"curl/8.1","bytes_in":120,"bytes_out":512,"label":1}
